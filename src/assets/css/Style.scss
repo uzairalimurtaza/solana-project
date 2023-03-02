@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  &::-webkit-scrollbar-thumb:hover {
+    opacity: 0.7;
+  }
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background: #000;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: var(--green-color);
+    border-radius: 10px;
+  }
+}
+
+.custom_container {
+  max-width: 80vw;
+  margin: auto;
+}
+::-ms-reveal {
+  display: none;
+}
+:root {
+  --green-color: #1dda6f;
+  --dark-green-color: #012711;
+  --purple-color: #c925ed;
+  --light-white: #ffffff80;
+}
+p {
+  margin-bottom: 0 !important;
+}
+.product_heading {
+  p {
+    color: var(--green-color);
+  }
+  h4 {
+    color: #fff;
+  }
+  button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: lightgrey;
+    outline: none;
+    transition: 0.2s;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+.time {
+  position: absolute;
+  right: 15px;
+  bottom: 25px;
+  background: var(--dark-green-color);
+  color: #fff !important;
+  padding: 1px 14px;
+  border-radius: 20px;
+}
+@import "userHome";
+
+.MuiButton-root {
+  border: 1px solid var(--green-color) !important;
+  &:hover {
+    background: transparent !important;
+  }
+}
+
+.border-none {
+  border: none !important;
+}
+
+.loading {
+  // filter: blur(10px);
+  // clip-path: inset(0);
+}
+// .loaded {
+//   filter: blur(0px);
+// }

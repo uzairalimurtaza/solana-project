@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="65" viewBox="0 0 72 65">
+  <defs>
+    <clipPath id="clip-Disconnect_wallet">
+      <rect width="72" height="65"/>
+    </clipPath>
+  </defs>
+  <g id="Disconnect_wallet" data-name="Disconnect wallet" clip-path="url(#clip-Disconnect_wallet)">
+    <g id="Group_1198" data-name="Group 1198" transform="translate(-8997.527 -5451.238)">
+      <path id="Icon_awesome-wallet" data-name="Icon awesome-wallet" d="M61.513,15.054H10.67a2.134,2.134,0,0,1,0-4.268H61.887a2.133,2.133,0,0,0,2.134-2.134,6.4,6.4,0,0,0-6.4-6.4H8.536A8.535,8.535,0,0,0,0,10.786v42.68A8.535,8.535,0,0,0,8.536,62H61.513a6.6,6.6,0,0,0,6.776-6.4V21.456A6.6,6.6,0,0,0,61.513,15.054ZM55.485,42.8a4.268,4.268,0,1,1,4.268-4.268A4.269,4.269,0,0,1,55.485,42.8Z" transform="translate(9001.238 5448.988)" fill="#1eda6b"/>
+      <circle id="Ellipse_9" data-name="Ellipse 9" cx="18.754" cy="18.754" r="18.754" transform="translate(8999 5477.705)" fill="#fff" stroke="#1eda6b" stroke-width="2"/>
+      <path id="Path_175" data-name="Path 175" d="M20.3-7.38v4.375H1.566V-7.38Z" transform="translate(9005.271 5502.133)" fill="#fb3939"/>
+    </g>
+  </g>
+</svg>
